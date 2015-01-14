@@ -38,8 +38,6 @@ public class CartaNivelAvancado extends Carta {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
 
                 capturarCliqueDoMouse();//Captura o clique do mouse e ao clicar executar tais procedimentos
-
-
             }
         });
         NovoJogo.addActionListener(new java.awt.event.ActionListener() {//Assinatura de Evento de Sub Menu do Jogo (ActionPerformed NovoJogo)
@@ -124,14 +122,8 @@ public class CartaNivelAvancado extends Carta {
                         contCardViradaPar = 0;//Zera o contador de cartas pares viradas
                     }
 
-
-
                     ClicaPrimCarta = null; // Faz ClicaPrimCarta receber null,
                     cont = 0;// Zera o contador de cliques
-
-
-
-
                 }
             }
         } else {//Caso a carta já esteja virada para frente
